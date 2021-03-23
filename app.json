@@ -1,0 +1,7 @@
+{
+	"name": "Universal Link",
+	"description": "ios universal link demo",
+	"repository": "https://git.heroku.com/universallink001.git",
+	"logo": "https://universallink001.herokuapp.com/logo.png",
+	"keywords": [ "universal links"]
+}
