@@ -3,6 +3,10 @@
 		"apps": [],
 		"details": [
 			{
+				"appID": "E964NHA3W8.com.infor.HMSKey",
+				"paths": [ "*"]
+			},
+			{
 				"appID": "7U3DC43RL8.com.infor.HMSKey",
 				"paths": [ "*"]
 			},
