@@ -2,8 +2,24 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.infor.hmskey",
+    "package_name": "com.infor.hms.housekeeping",
     "sha256_cert_fingerprints":
-    ["80:88:B2:79:60:D7:D9:70:EC:34:CE:34:9C:E6:71:C8:6D:EF:A9:1B:29:24:B8:08:19:91:1A:4C:4B:1A:BD:69"]
+    ["99:C6:BF:55:70:32:75:FB:44:66:5F:EC:52:45:CF:16:47:5A:E9:19:FB:7F:78:7E:9E:5A:50:81:55:9A:90:6C"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://universallink001.herokuapp.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.infor.hms.housekeeping",
+    "sha256_cert_fingerprints":
+    ["99:C6:BF:55:70:32:75:FB:44:66:5F:EC:52:45:CF:16:47:5A:E9:19:FB:7F:78:7E:9E:5A:50:81:55:9A:90:6C"]
   }
 }]
