@@ -6,20 +6,4 @@
     "sha256_cert_fingerprints":
     ["99:C6:BF:55:70:32:75:FB:44:66:5F:EC:52:45:CF:16:47:5A:E9:19:FB:7F:78:7E:9E:5A:50:81:55:9A:90:6C"]
   }
-},
-{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "web",
-    "site": "https://universallink001.herokuapp.com"
-  }
-},
-{
-  "relation": ["delegate_permission/common.get_login_creds"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.infor.hms.housekeeping",
-    "sha256_cert_fingerprints":
-    ["99:C6:BF:55:70:32:75:FB:44:66:5F:EC:52:45:CF:16:47:5A:E9:19:FB:7F:78:7E:9E:5A:50:81:55:9A:90:6C"]
-  }
 }]
